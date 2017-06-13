@@ -1,0 +1,9 @@
+https://github.com/chenyouda/AIDL_FRAME.git
+
+echo "# AIDL_FRAME" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git remote add origin https://github.com/chenyouda/AIDL_FRAME.git
+  git push -u origin master
+  
