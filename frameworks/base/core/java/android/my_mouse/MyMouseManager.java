@@ -14,7 +14,7 @@ import android.os.IBinder;
 public class MyMouseManager {
 	IMyMouseService service;
         static MyMouseManager myMouseManager;
-        String TAG="MyMouseManager";
+        static String TAG="MyMouseManager";
         boolean DBG=true;
 
 

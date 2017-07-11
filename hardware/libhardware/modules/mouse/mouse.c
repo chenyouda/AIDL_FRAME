@@ -60,6 +60,7 @@ static int mouse_device_open(const struct hw_module_t* module,const char* name,s
     if((dev->fd = open(DEVICE_NAME,O_RDWR)) == -1){
        ALOGE("mouse stub: failed to open device -- %s",strerror(errno));
        free(dev);
+       return -EFAULT;
     }
 
     *device = &(dev->common);

@@ -22,7 +22,7 @@ struct mouse_module_t {
 struct mouse_device_t {
     struct hw_device_t common;
     int fd;
-    bool (*setMouseEnble)(struct mouse_device_t dev,bool enbleOrNo);
+    bool (*setMouseEnble)(struct mouse_device_t* dev,bool enbleOrNo);
 };
 
 __END_DECLS
